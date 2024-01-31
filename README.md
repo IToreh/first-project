@@ -22,16 +22,19 @@ print('hello world')
 
 ##Лог
 
+
 Чтобы вызвать лог, используем команду git log
 Чтобы вызвать сокращенный лог, используем команду `git log` с фдагом --oneline
 
 ##HEAD
+
 
 HEAD - служебный файл, который хранит информацию о последнем коммите, а именно его хеш, с каждым новым коммитом содержание HEAD обновляется
 
 Чтобы узнать полследний хеш нужно использовать команаду cat refs/heads/master
 
 ##Статусы файлов в Git
+
 
 Существует 4 статуса файлов: Untracked/Tracked, staged, modified
 
@@ -41,6 +44,7 @@ graph LR;
   staged    -- "git commit"     --> tracked/comitted;
   untracked/staged/tracked/comitted -- "edit file" --> modified;
 ```
+
 
 ##Оформление сообщений
   
